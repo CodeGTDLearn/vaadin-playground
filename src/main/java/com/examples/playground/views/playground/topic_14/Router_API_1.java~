@@ -1,4 +1,4 @@
-package com.examples.playground.views.playground;
+package com.examples.playground.views.playground.topic_14;
 
 import com.vaadin.flow.component.html.H2;
 import com.vaadin.flow.component.html.Image;
@@ -10,9 +10,9 @@ import com.vaadin.flow.theme.lumo.LumoUtility.Margin;
 
 @PageTitle("Playground")
 @Route("")
-public class PlaygroundView extends VerticalLayout {
+public class Router_API_1 extends VerticalLayout {
 
-  public PlaygroundView() {
+  public Router_API_1() {
 
     setSpacing(false);
 

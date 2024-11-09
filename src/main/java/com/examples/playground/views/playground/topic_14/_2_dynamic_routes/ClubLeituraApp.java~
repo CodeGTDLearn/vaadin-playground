@@ -1,0 +1,29 @@
+package com.examples.playground.views.playground.topic_14._2_dynamic_routes;
+
+import com.vaadin.flow.router.RouteConfiguration;
+import com.vaadin.flow.server.VaadinSession;
+
+public class ReadersClubUtilsp {
+
+  public static void configureRoutes() {
+
+    // Application Scope Route: Visível a todos
+    RouteConfiguration
+         .forApplicationScope()
+         .setRoute("public", PublicPage.class);
+
+    // Session Scope Route: Disponível apenas para membros
+    if (isLoggedIn()) {
+      RouteConfiguration
+           .forSessionScope()
+           .setRoute("member-area", MemberPage.class);
+    }
+  }
+
+  private static boolean isLoggedIn() {
+
+    return VaadinSession
+                .getCurrent()
+                .getAttribute("user") != null;
+  }
+}

@@ -1,0 +1,45 @@
+package com.examples.playground.views.playground.topic_14._2_dynamic_routes;
+
+import com.vaadin.flow.component.UI;
+import com.vaadin.flow.component.button.Button;
+import com.vaadin.flow.component.orderedlayout.VerticalLayout;
+import com.vaadin.flow.router.Route;
+import com.vaadin.flow.server.VaadinSession;
+import com.vaadin.flow.component.html.Label;
+
+@Route("")
+public class ReadersCluLoginView extends VerticalLayout {
+
+  public ReadersCluLoginView() {
+
+    Button loginButton =
+         new Button(
+              "Login as Member",
+              click -> {
+                VaadinSession
+                     .getCurrent()
+                     .setAttribute("user", "member");
+
+                ClubLeituraApp.configureRoutes();
+
+                UI.getCurrent()
+                  .navigate("member-area");  // Direciona o usuário para a área de membros
+              }
+         );
+
+    Button publicButton = new Button(
+         "View Public Page",
+         click ->
+              UI.getCurrent()
+                .navigate("public")
+    );
+
+    add(
+         new Label("Welcome to the Book Club!"),
+         loginButton,
+         publicButton
+    );
+
+  }
+
+}

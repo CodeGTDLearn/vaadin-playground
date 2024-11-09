@@ -1,0 +1,11 @@
+package com.examples.playground.views.playground.topic_14;// Import necessary Vaadin packages
+import com.vaadin.flow.component.html.Div;
+import com.vaadin.flow.router.Route;
+
+// Define a basic view with a route
+@Route("home")
+public class HomeView_basic_route_confi extends Div {
+    public HomeView_basic_route_confi() {
+        setText("Welcome to the Home Page!");
+    }
+}

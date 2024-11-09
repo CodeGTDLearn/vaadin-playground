@@ -1,0 +1,13 @@
+package com.examples.playground.views.playground.topic_14;
+
+import com.vaadin.flow.component.html.Div;
+import com.vaadin.flow.router.Route;
+import com.vaadin.flow.router.HasUrlParameter;
+
+@Route("user")
+public class ex4_url_parameterUserView extends Div implements HasUrlParameter<String> {
+    @Override
+    public void setParameter(com.vaadin.flow.router.BeforeEvent event, String parameter) {
+        setText("User ID: " + parameter);
+    }
+}

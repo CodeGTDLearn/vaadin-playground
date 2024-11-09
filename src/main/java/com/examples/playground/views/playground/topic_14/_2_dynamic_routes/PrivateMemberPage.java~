@@ -1,0 +1,13 @@
+package com.examples.playground.views.playground.topic_14._2_dynamic_routes;
+
+import com.vaadin.flow.component.html.Label;
+import com.vaadin.flow.component.orderedlayout.VerticalLayout;
+import com.vaadin.flow.router.Route;
+
+@Route("readersclub/pmember-area")
+public class PrivateMemberPage extends VerticalLayout {
+  public PrivateMemberPage() {
+
+    add(new Label("Hello Member! Here are your exclusive reading recommendations."));
+  }
+}

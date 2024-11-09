@@ -1,0 +1,12 @@
+package com.examples.playground.views.playground.topic_14;
+
+import com.vaadin.flow.component.html.Div;
+import com.vaadin.flow.router.Route;
+
+@Route("orders/:orderId")
+public class ex7_route_templateOrderView extends Div {
+    public ex7_route_templateOrderView(com.vaadin.flow.router.BeforeEvent event) {
+        String orderId = event.getLocation().getPathParameter("orderId").orElse("unknown");
+        setText("Order ID: " + orderId);
+    }
+}
