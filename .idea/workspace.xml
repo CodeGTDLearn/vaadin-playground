@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1840f0a6-7e4b-4d44-b1c3-04f5434776a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/examples/playground/views/playground/topic_14/_2_dynamic_routes/MemberPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/examples/playground/views/playground/topic_14/_2_dynamic_routes/PublicPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/examples/playground/views/playground/topic_14/_2_dynamic_routes/ReadersClubLoginView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/examples/playground/views/playground/topic_14/_2_dynamic_routes/ReadersClubUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/generated/flow/generated-flow-imports.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/generated/flow/generated-flow-imports.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/generated/flow/generated-flow-webcomponent-imports.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/generated/flow/generated-flow-webcomponent-imports.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/examples/playground/views/playground/topic_14_1/ex1_basic_route_config_HomeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/examples/playground/views/playground/topic_14/_1_basic_urlParameter/basic_route/ex1_basic_route_config_HomeView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/examples/playground/views/playground/topic_14_1/ex2_compound_name_route_SettingsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/examples/playground/views/playground/topic_14/_1_basic_urlParameter/basic_route/ex2_compound_name_route_SettingsView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/examples/playground/views/playground/topic_14_1/ex2_default_routes_DefaultView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/examples/playground/views/playground/topic_14/_1_basic_urlParameter/basic_route/ex2_default_routes_DefaultView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/examples/playground/views/playground/topic_14_1/ex3_route_alias_ProfileView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/examples/playground/views/playground/topic_14/_1_basic_urlParameter/basic_route/ex3_route_alias_ProfileView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/examples/playground/views/playground/topic_14_1/ex4_url_parameter_UserView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/examples/playground/views/playground/topic_14/_1_basic_urlParameter/route_url_parameter/ex4_url_parameter_UserView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/examples/playground/views/playground/topic_14_1/ex5_optional_parameter_ProductView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/examples/playground/views/playground/topic_14/_1_basic_urlParameter/route_url_parameter/ex5_optional_parameter_ProductView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/examples/playground/views/playground/topic_14_1/ex6_wildcard_parameter_FileView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/examples/playground/views/playground/topic_14/_1_basic_urlParameter/route_url_parameter/ex6_wildcard_parameter_FileView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/examples/playground/views/playground/topic_14_1/ex7_route_template_OrderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/examples/playground/views/playground/topic_14/_1_basic_urlParameter/route_template/ex7_route_template_OrderView.java" afterDir="false" />
-    </list>
+    <list default="true" id="1840f0a6-7e4b-4d44-b1c3-04f5434776a7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,9 +47,9 @@
     "ToolWindow.Run.ShowToolbar": "false",
     "com.codeium.enabled": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/WORKBASE/MD/PROJETOS/1_paulo_personal_branding/0 - Artigos/3",
+    "last_opened_file_path": "C:/WORKBASE/MD/PROJETOS/1_paulo_personal_branding/0 - Artigos/4",
     "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "code-screenshots"
+    "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
   <component name="RunManager">

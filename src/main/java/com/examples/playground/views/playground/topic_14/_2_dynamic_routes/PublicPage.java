@@ -9,7 +9,8 @@ public class PublicPage extends VerticalLayout {
 
   public PublicPage() {
 
-    add(new Label("Welcome to our Book Club! Here’s a list of books available for everyone."));
+   var message = "Welcome to our Book Club! Here’s a list of books available for everyone.";
+    add(new Label(message));
   }
 
 }

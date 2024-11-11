@@ -1,0 +1,7 @@
+package com.examples.playground.views.playground.topic_14._3_exception_views;
+
+public class ClientAddressNotFoundmException extends RuntimeException {
+    public ClientAddressNotFoundmException(String message) {
+        super(message);
+    }
+}
