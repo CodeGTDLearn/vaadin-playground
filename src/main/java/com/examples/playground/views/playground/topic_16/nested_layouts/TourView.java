@@ -1,4 +1,4 @@
-package com.examples.playground.views.playground.topic_16;
+package com.examples.playground.views.playground.topic_16.nested_layouts;
 
 import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.router.Route;
